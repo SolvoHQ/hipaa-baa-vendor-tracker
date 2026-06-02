@@ -1,0 +1,308 @@
+[
+  {
+    "tool": "ChatGPT",
+    "vendor": "OpenAI",
+    "baa_status": "plan_gated",
+    "phi_eligible": "conditional",
+    "baa_tier_detail": "BAA available on ChatGPT Enterprise, the API platform, and the new ChatGPT for Healthcare (launched Jan 2026). Free, Plus and Pro consumer plans are excluded and cannot get a BAA.",
+    "baa_last_verified": "2026-06-01",
+    "source_url": "https://openai.com/enterprise-privacy/"
+  },
+  {
+    "tool": "Claude",
+    "vendor": "Anthropic",
+    "baa_status": "plan_gated",
+    "phi_eligible": "conditional",
+    "baa_tier_detail": "A BAA is available on Claude for Enterprise (and commercial/API agreements). Consumer Claude (Free, Pro, Max) is not BAA-covered.",
+    "baa_last_verified": "2026-06-01",
+    "source_url": "https://www.anthropic.com/legal/commercial-terms"
+  },
+  {
+    "tool": "Google Gemini",
+    "vendor": "Google",
+    "baa_status": "available",
+    "phi_eligible": "conditional",
+    "baa_tier_detail": "Gemini for Workspace is a HIPAA-covered service under the Google Workspace BAA. A Workspace admin must accept the BAA in the Admin console; the free consumer Gemini app is not covered.",
+    "baa_last_verified": "2026-06-01",
+    "source_url": "https://workspace.google.com/security/ai-privacy/"
+  },
+  {
+    "tool": "GitHub Copilot",
+    "vendor": "GitHub (Microsoft)",
+    "baa_status": "not_available",
+    "phi_eligible": "no",
+    "baa_tier_detail": "GitHub Copilot is explicitly outside Microsoft's HIPAA BAA scope — it is not a BAA-covered service even on enterprise GitHub plans.",
+    "baa_last_verified": "2026-06-01",
+    "source_url": "https://github.com/customer-terms/github-data-protection-agreement"
+  },
+  {
+    "tool": "Microsoft 365 Copilot",
+    "vendor": "Microsoft",
+    "baa_status": "plan_gated",
+    "phi_eligible": "conditional",
+    "baa_tier_detail": "Covered by Microsoft's HIPAA BAA when run inside an eligible Microsoft 365 enterprise tenant (E3/E5, Business Premium). Consumer and unlicensed add-on tiers are excluded.",
+    "baa_last_verified": "2026-06-01",
+    "source_url": "https://learn.microsoft.com/en-us/microsoft-365/copilot/enterprise-data-protection"
+  },
+  {
+    "tool": "Notion AI",
+    "vendor": "Notion",
+    "baa_status": "plan_gated",
+    "phi_eligible": "no",
+    "baa_tier_detail": "Notion signs a BAA only on the Enterprise plan (100+ members), and the Notion AI add-on is explicitly carved out of that BAA — so PHI may never be processed through Notion AI even on an Enterprise BAA.",
+    "baa_last_verified": "2026-06-01",
+    "source_url": "https://www.notion.com/help/hipaa"
+  },
+  {
+    "tool": "Slack AI",
+    "vendor": "Slack (Salesforce)",
+    "baa_status": "plan_gated",
+    "phi_eligible": "conditional",
+    "baa_tier_detail": "Slack signs a BAA only for Enterprise Grid; once configured for HIPAA, PHI may appear in messages and file uploads that Slack AI operates on within Slack's trust boundary, while third-party marketplace apps stay excluded.",
+    "baa_last_verified": "2026-06-01",
+    "source_url": "https://slack.com/help/articles/360020685594-Slack-and-HIPAA"
+  },
+  {
+    "tool": "Grammarly",
+    "vendor": "Grammarly",
+    "baa_status": "plan_gated",
+    "phi_eligible": "conditional",
+    "baa_tier_detail": "Grammarly enters a BAA only on Grammarly Business Enterprise plans with a 100-seat minimum; individual and smaller paid plans are not BAA-eligible and must not handle PHI.",
+    "baa_last_verified": "2026-06-01",
+    "source_url": "https://support.grammarly.com/hc/en-us/articles/4403227220237-Is-Grammarly-HIPAA-compliant"
+  },
+  {
+    "tool": "Otter.ai",
+    "vendor": "Otter.ai",
+    "baa_status": "plan_gated",
+    "phi_eligible": "conditional",
+    "baa_tier_detail": "A BAA is available on Otter Enterprise only. Basic, Pro and Business plans cannot execute a BAA.",
+    "baa_last_verified": "2026-06-01",
+    "source_url": "https://otter.ai/privacy-policy"
+  },
+  {
+    "tool": "Zoom AI Companion",
+    "vendor": "Zoom",
+    "baa_status": "not_available",
+    "phi_eligible": "no",
+    "baa_tier_detail": "Zoom signs a BAA for Meetings, Phone and Team Chat on eligible plans, but AI Companion's generative features (notes, summaries, transcription, chatbot) are excluded from standard BAA coverage and are auto-restricted when a BAA is active.",
+    "baa_last_verified": "2026-06-01",
+    "source_url": "https://www.zoom.com/en/trust/legal-compliance/hipaa-ready/"
+  },
+  {
+    "tool": "Perplexity AI",
+    "vendor": "Perplexity",
+    "baa_status": "not_available",
+    "phi_eligible": "no",
+    "baa_tier_detail": "Perplexity does not sign a BAA — not even on Enterprise Pro. There is no HIPAA-covered Perplexity tier.",
+    "baa_last_verified": "2026-06-01",
+    "source_url": "https://www.perplexity.ai/hub/legal/perplexity-enterprise-data-processing-addendum"
+  },
+  {
+    "tool": "Microsoft Copilot",
+    "vendor": "Microsoft",
+    "baa_status": "not_available",
+    "phi_eligible": "no",
+    "baa_tier_detail": "Consumer Microsoft Copilot (the free / web Copilot) is excluded from Microsoft's HIPAA BAA — only Microsoft 365 enterprise Copilot is covered.",
+    "baa_last_verified": "2026-06-01",
+    "source_url": "https://support.microsoft.com/en-us/topic/privacy-faq-for-microsoft-copilot-27b3a435-8dc9-4b55-9a4b-58eeb9647a7f"
+  },
+  {
+    "tool": "Grok",
+    "vendor": "xAI",
+    "baa_status": "on_request",
+    "phi_eligible": "conditional",
+    "baa_tier_detail": "xAI can sign a BAA for Enterprise customers after a BAA questionnaire, and PHI must be sent only via xAI's ZDR-enabled API; consumer Grok has no BAA.",
+    "baa_last_verified": "2026-06-01",
+    "source_url": "https://docs.x.ai/developers/faq/security"
+  },
+  {
+    "tool": "Meta AI",
+    "vendor": "Meta",
+    "baa_status": "not_available",
+    "phi_eligible": "no",
+    "baa_tier_detail": "Meta does not sign a HIPAA BAA for any of its products, including Meta AI; it is a consumer service not designed for PHI and has faced enforcement over health-data handling.",
+    "baa_last_verified": "2026-06-01",
+    "source_url": "https://www.facebook.com/privacy/genai"
+  },
+  {
+    "tool": "DeepSeek",
+    "vendor": "DeepSeek",
+    "baa_status": "not_available",
+    "phi_eligible": "no",
+    "baa_tier_detail": "DeepSeek publishes no HIPAA BAA and offers no HIPAA-compliant tier; data is stored in the People's Republic of China and the product carries no compliance or transparency guarantees for healthcare use.",
+    "baa_last_verified": "2026-06-01",
+    "source_url": "https://cdn.deepseek.com/policies/en-US/deepseek-privacy-policy.html"
+  },
+  {
+    "tool": "Mistral Le Chat",
+    "vendor": "Mistral AI",
+    "baa_status": "not_available",
+    "phi_eligible": "no",
+    "baa_tier_detail": "Mistral does not publish a HIPAA BAA for Le Chat (including Le Chat Enterprise); a GDPR DPA and API Zero Data Retention exist but are not a BAA. HIPAA-grade use is only attainable by self-hosting the open-weight models yourself.",
+    "baa_last_verified": "2026-06-01",
+    "source_url": "https://help.mistral.ai/en/collections/789670-regulatory-compliance-and-certification"
+  },
+  {
+    "tool": "Character.AI",
+    "vendor": "Character.AI",
+    "baa_status": "not_available",
+    "phi_eligible": "no",
+    "baa_tier_detail": "Character.AI is a consumer entertainment chatbot with no HIPAA BAA and no healthcare/enterprise compliance tier; users are advised not to share sensitive or medical data.",
+    "baa_last_verified": "2026-06-01",
+    "source_url": "https://support.character.ai/hc/en-us/articles/39030432883099-Privacy-Policy"
+  },
+  {
+    "tool": "Poe",
+    "vendor": "Quora",
+    "baa_status": "not_available",
+    "phi_eligible": "no",
+    "baa_tier_detail": "Poe (by Quora) is a consumer multi-model chatbot aggregator with no HIPAA BAA; its privacy policy warns against sharing sensitive information and shares chats with third-party model providers and bot developers.",
+    "baa_last_verified": "2026-06-01",
+    "source_url": "https://poe.com/pages/privacy"
+  },
+  {
+    "tool": "Cursor",
+    "vendor": "Anysphere",
+    "baa_status": "not_available",
+    "phi_eligible": "no",
+    "baa_tier_detail": "Cursor (Anysphere) does not publicly offer a BAA on any plan — Free, Pro, Business or Enterprise — and its terms contain no HIPAA provisions; healthcare teams are directed to contact sales but no BAA is documented.",
+    "baa_last_verified": "2026-06-01",
+    "source_url": "https://cursor.com/security"
+  },
+  {
+    "tool": "Tabnine",
+    "vendor": "Tabnine",
+    "baa_status": "on_request",
+    "phi_eligible": "conditional",
+    "baa_tier_detail": "Tabnine fits HIPAA workflows via its Enterprise self-hosted, VPC, on-prem and air-gapped deployments with zero code retention, where customer code never reaches Tabnine's servers; a BAA is handled through enterprise engagement rather than a self-serve click-through.",
+    "baa_last_verified": "2026-06-01",
+    "source_url": "https://docs.tabnine.com/main/welcome/readme/security"
+  },
+  {
+    "tool": "Codeium / Windsurf",
+    "vendor": "Codeium",
+    "baa_status": "plan_gated",
+    "phi_eligible": "conditional",
+    "baa_tier_detail": "Windsurf/Codeium's security page states it is maintained HIPAA-compliant and will entertain a BAA for significant (enterprise) implementations with zero-data-retention by default on Teams/Enterprise; the standard MSA, however, disclaims that the Offerings meet HIPAA, so a BAA must be separately negotiated.",
+    "baa_last_verified": "2026-06-01",
+    "source_url": "https://windsurf.com/security"
+  },
+  {
+    "tool": "Replit AI",
+    "vendor": "Replit",
+    "baa_status": "not_available",
+    "phi_eligible": "no",
+    "baa_tier_detail": "Replit does not offer a BAA or advertise HIPAA eligibility, and its 2026 Commercial Agreement and DPA add no HIPAA/BAA terms; it also lacks HIPAA controls such as PHI-safe isolation, audit logs and breach alerting.",
+    "baa_last_verified": "2026-06-01",
+    "source_url": "https://replit.com/dpa"
+  },
+  {
+    "tool": "Amazon Q Developer",
+    "vendor": "Amazon Web Services",
+    "baa_status": "not_available",
+    "phi_eligible": "no",
+    "baa_tier_detail": "AWS signs a single BAA covering eligible services, but Amazon Q Developer is NOT on the AWS HIPAA Eligible Services Reference list (only Amazon Q Business is); AWS states Q Developer is not designed to transmit, store or process ePHI.",
+    "baa_last_verified": "2026-06-01",
+    "source_url": "https://aws.amazon.com/compliance/hipaa-eligible-services-reference/"
+  },
+  {
+    "tool": "Sourcegraph Cody",
+    "vendor": "Sourcegraph",
+    "baa_status": "not_available",
+    "phi_eligible": "no",
+    "baa_tier_detail": "Sourcegraph's published compliance program covers SOC 2 Type II, ISO 27001, GDPR and CCPA but lists no HIPAA attestation and offers no BAA; Cody is a developer code-AI product not positioned for PHI.",
+    "baa_last_verified": "2026-06-01",
+    "source_url": "https://sourcegraph.com/security"
+  },
+  {
+    "tool": "Jasper",
+    "vendor": "Jasper",
+    "baa_status": "not_available",
+    "phi_eligible": "no",
+    "baa_tier_detail": "The Jasper marketing platform's security documentation advises against entering protected health information and offers no BAA; the separately-owned, unrelated 'Jasper Health' company is the only Jasper-named entity that signs BAAs.",
+    "baa_last_verified": "2026-06-01",
+    "source_url": "https://www.jasper.ai/trust"
+  },
+  {
+    "tool": "Copy.ai",
+    "vendor": "Copy.ai",
+    "baa_status": "not_available",
+    "phi_eligible": "no",
+    "baa_tier_detail": "Copy.ai is a marketing/GTM writing tool whose public security and trust materials address general data privacy (SOC 2 / GDPR / CCPA style) but contain no HIPAA compliance statement or BAA offering.",
+    "baa_last_verified": "2026-06-01",
+    "source_url": "https://www.copy.ai/security"
+  },
+  {
+    "tool": "QuillBot",
+    "vendor": "QuillBot (Course Hero/Learneo)",
+    "baa_status": "not_available",
+    "phi_eligible": "no",
+    "baa_tier_detail": "QuillBot's Trust Center commits to GDPR, CCPA and PCI DSS but lists no HIPAA compliance or BAA offering; third-party aggregator claims of 'HIPAA compliant' are not corroborated by QuillBot's first-party documentation.",
+    "baa_last_verified": "2026-06-01",
+    "source_url": "https://quillbot.com/trust-center"
+  },
+  {
+    "tool": "Google NotebookLM",
+    "vendor": "Google",
+    "baa_status": "not_available",
+    "phi_eligible": "no",
+    "baa_tier_detail": "NotebookLM is absent from Google Workspace's 'HIPAA Included Functionality' list, so it is not covered by the Google Workspace HIPAA BAA; the free consumer app is likewise out of scope.",
+    "baa_last_verified": "2026-06-01",
+    "source_url": "https://workspace.google.com/terms/2015/1/hipaa_functionality/"
+  },
+  {
+    "tool": "Midjourney",
+    "vendor": "Midjourney",
+    "baa_status": "not_available",
+    "phi_eligible": "no",
+    "baa_tier_detail": "Midjourney is a consumer creative image-generation service with no security/compliance program and no BAA offering on any tier; it does not execute HIPAA BAAs.",
+    "baa_last_verified": "2026-06-01",
+    "source_url": "https://docs.midjourney.com/hc/en-us/articles/32083472637453-Privacy-Policy"
+  },
+  {
+    "tool": "Adobe Firefly",
+    "vendor": "Adobe",
+    "baa_status": "not_available",
+    "phi_eligible": "no",
+    "baa_tier_detail": "Adobe acts as a Business Associate only for designated HIPAA-Ready Services (e.g. Acrobat Sign Enterprise and select Document/Experience Cloud capabilities); Firefly is a creative generative-AI app and is not a HIPAA-Ready Service, so no Firefly BAA is available.",
+    "baa_last_verified": "2026-06-01",
+    "source_url": "https://www.adobe.com/trust/compliance/hipaa-hds/hipaa-ready.html"
+  },
+  {
+    "tool": "Canva (Magic Studio)",
+    "vendor": "Canva",
+    "baa_status": "not_available",
+    "phi_eligible": "no",
+    "baa_tier_detail": "Canva does not sign a BAA on any plan, including Canva Enterprise; its Trust Center offers only GDPR-oriented Data Processing Addendums, not a HIPAA BAA.",
+    "baa_last_verified": "2026-06-01",
+    "source_url": "https://www.canva.com/trust/privacy/"
+  },
+  {
+    "tool": "ElevenLabs",
+    "vendor": "ElevenLabs",
+    "baa_status": "plan_gated",
+    "phi_eligible": "conditional",
+    "baa_tier_detail": "ElevenLabs executes a BAA only for Enterprise subscriptions, which must run a HIPAA-compliant configuration with Zero Retention Mode enabled; customers contact Sales to sign the BAA before handling PHI.",
+    "baa_last_verified": "2026-06-01",
+    "source_url": "https://elevenlabs.io/docs/conversational-ai/legal/hipaa"
+  },
+  {
+    "tool": "Fireflies.ai",
+    "vendor": "Fireflies.ai",
+    "baa_status": "on_request",
+    "phi_eligible": "conditional",
+    "baa_tier_detail": "HIPAA compliance and a BAA are available on request for qualifying (paid) plans, executed via Fireflies' Data Processing Agreement.",
+    "baa_last_verified": "2026-06-01",
+    "source_url": "https://fireflies.ai/security"
+  },
+  {
+    "tool": "Descript",
+    "vendor": "Descript",
+    "baa_status": "not_available",
+    "phi_eligible": "no",
+    "baa_tier_detail": "Descript's published compliance program (security page, SecurityPal trust center) covers SOC 2 Type II, GDPR, CCPA and Privacy by Design but lists no HIPAA attestation and offers no BAA on any plan, including Enterprise.",
+    "baa_last_verified": "2026-06-01",
+    "source_url": "https://www.descript.com/security"
+  }
+]
