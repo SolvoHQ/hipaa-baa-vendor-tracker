@@ -1,3 +1,8 @@
+---
+title: "Which AI tools sign a HIPAA BAA? — open vendor dataset"
+description: "Cited, date-stamped dataset of which AI tools sign a HIPAA Business Associate Agreement (BAA) and can process PHI. 1 sign one outright, 12 on a qualifying tier, 21 will not."
+---
+
 # HIPAA BAA Vendor Tracker — which AI tools sign a HIPAA BAA?
 
 An open, cited, date-stamped dataset of **whether common AI tools will sign a HIPAA Business Associate Agreement (BAA)** and are usable with Protected Health Information (PHI). Every verdict is sourced from the vendor's own BAA, DPA, HIPAA, or trust-center documentation (or HHS) and carries the date it was last verified. The goal: one honest, machine-readable reference you can check **before** pasting patient data into a tool that was never cleared for it.
