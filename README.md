@@ -23,23 +23,50 @@ Only when the vendor has signed a HIPAA BAA that covers your specific plan, and 
 ### What does "BAA on enterprise tiers" mean for HIPAA?
 It means the vendor will sign a BAA, but only on a specific (usually enterprise or business) plan — the free and consumer tiers are contractually excluded and cannot lawfully process PHI. The "How to get a BAA" column names the exact tier each tool gates its BAA behind.
 
-### Does ChatGPT sign a HIPAA BAA?
-Partially — ChatGPT (OpenAI) will sign a HIPAA BAA, but only on a qualifying (usually enterprise) tier; its free and consumer plans are excluded. BAA available on ChatGPT Enterprise, the API platform, and the new ChatGPT for Healthcare (launched Jan 2026). Free, Plus and Pro consumer plans are excluded and cannot get a BAA. PHI is permitted only on a BAA-covered Enterprise, API or ChatGPT-for-Healthcare account — never on Free, Plus or Pro. (Verified 2026-06-01.) → [ChatGPT on BAA Atlas](https://baa-atlas.vercel.app/ai/chatgpt) · [primary source](https://openai.com/enterprise-privacy/)
+### Is any AI tool "HIPAA compliant"?
+No AI tool is "HIPAA compliant" or "HIPAA certified" as a standalone property — there is no such certification, and the term is a shared responsibility between you and the vendor. An AI tool can only be *used in a HIPAA-compliant way* once the vendor has signed a HIPAA BAA covering your specific plan, and only on that covered tier. So "Is ChatGPT HIPAA compliant?" really means "will it sign a BAA, and on which tier?" — which is exactly what this dataset tracks. Each per-vendor answer below leads with that verdict.
 
-### Does Claude sign a HIPAA BAA?
-Partially — Claude (Anthropic) will sign a HIPAA BAA, but only on a qualifying (usually enterprise) tier; its free and consumer plans are excluded. A BAA is available on Claude for Enterprise (and commercial/API agreements). Consumer Claude (Free, Pro, Max) is not BAA-covered. PHI is permitted only on a BAA-covered Claude for Enterprise (or commercial/API) agreement — never on consumer Claude. (Verified 2026-06-01.) → [Claude on BAA Atlas](https://baa-atlas.vercel.app/ai/anthropic-claude) · [primary source](https://www.anthropic.com/legal/commercial-terms)
+### Does ChatGPT sign a HIPAA BAA? Is ChatGPT HIPAA compliant?
+**Does ChatGPT sign a HIPAA BAA?** Partially — ChatGPT (OpenAI) will sign a HIPAA BAA, but only on a qualifying (usually enterprise) tier; its free and consumer plans are excluded. BAA available on ChatGPT Enterprise, the API platform, and the new ChatGPT for Healthcare (launched Jan 2026). Free, Plus and Pro consumer plans are excluded and cannot get a BAA. PHI is permitted only on a BAA-covered Enterprise, API or ChatGPT-for-Healthcare account — never on Free, Plus or Pro. (Verified 2026-06-01.)
 
-### Does Google Gemini sign a HIPAA BAA?
-Yes — Google Gemini (Google) signs a HIPAA Business Associate Agreement. Gemini for Workspace is a HIPAA-covered service under the Google Workspace BAA. A Workspace admin must accept the BAA in the Admin console; the free consumer Gemini app is not covered. PHI is permitted in Gemini for Workspace once a Workspace admin has accepted the Google Workspace BAA — not in the free consumer Gemini app. (Verified 2026-06-01.) → [Google Gemini on BAA Atlas](https://baa-atlas.vercel.app/ai/google-gemini) · [primary source](https://workspace.google.com/security/ai-privacy/)
+**Is ChatGPT HIPAA compliant?** Only on a qualifying tier — ChatGPT (OpenAI) can be part of a HIPAA-compliant workflow, but only on its qualifying (usually enterprise) tier after a signed BAA. Its free and consumer plans cannot lawfully process PHI and are not HIPAA-eligible. (Verified 2026-06-01.)
 
-### Does Microsoft 365 Copilot sign a HIPAA BAA?
-Partially — Microsoft 365 Copilot (Microsoft) will sign a HIPAA BAA, but only on a qualifying (usually enterprise) tier; its free and consumer plans are excluded. Covered by Microsoft's HIPAA BAA when run inside an eligible Microsoft 365 enterprise tenant (E3/E5, Business Premium). Consumer and unlicensed add-on tiers are excluded. PHI is permitted only when Microsoft 365 Copilot runs inside a BAA-covered M365 enterprise tenant (E3/E5 or Business Premium). (Verified 2026-06-01.) → [Microsoft 365 Copilot on BAA Atlas](https://baa-atlas.vercel.app/ai/microsoft-365-copilot) · [primary source](https://learn.microsoft.com/en-us/microsoft-365/copilot/enterprise-data-protection)
+→ [ChatGPT on BAA Atlas](https://baa-atlas.vercel.app/ai/chatgpt) · [primary source](https://openai.com/enterprise-privacy/)
 
-### Does Perplexity AI sign a HIPAA BAA?
-No — Perplexity AI (Perplexity) does not sign a HIPAA BAA on any plan. Perplexity does not sign a BAA — not even on Enterprise Pro. There is no HIPAA-covered Perplexity tier. Do not enter PHI into Perplexity — it does not sign a BAA on any plan, including Enterprise Pro. (Verified 2026-06-01.) → [Perplexity AI on BAA Atlas](https://baa-atlas.vercel.app/ai/perplexity) · [primary source](https://www.perplexity.ai/hub/legal/perplexity-enterprise-data-processing-addendum)
+### Does Claude sign a HIPAA BAA? Is Claude HIPAA compliant?
+**Does Claude sign a HIPAA BAA?** Partially — Claude (Anthropic) will sign a HIPAA BAA, but only on a qualifying (usually enterprise) tier; its free and consumer plans are excluded. A BAA is available on Claude for Enterprise (and commercial/API agreements). Consumer Claude (Free, Pro, Max) is not BAA-covered. PHI is permitted only on a BAA-covered Claude for Enterprise (or commercial/API) agreement — never on consumer Claude. (Verified 2026-06-01.)
 
-### Does GitHub Copilot sign a HIPAA BAA?
-No — GitHub Copilot (GitHub (Microsoft)) does not sign a HIPAA BAA on any plan. GitHub Copilot is explicitly outside Microsoft's HIPAA BAA scope — it is not a BAA-covered service even on enterprise GitHub plans. Do not enter PHI into GitHub Copilot — it is excluded from Microsoft's HIPAA BAA coverage. (Verified 2026-06-01.) → [GitHub Copilot on BAA Atlas](https://baa-atlas.vercel.app/ai/github-copilot) · [primary source](https://github.com/customer-terms/github-data-protection-agreement)
+**Is Claude HIPAA compliant?** Only on a qualifying tier — Claude (Anthropic) can be part of a HIPAA-compliant workflow, but only on its qualifying (usually enterprise) tier after a signed BAA. Its free and consumer plans cannot lawfully process PHI and are not HIPAA-eligible. (Verified 2026-06-01.)
+
+→ [Claude on BAA Atlas](https://baa-atlas.vercel.app/ai/anthropic-claude) · [primary source](https://www.anthropic.com/legal/commercial-terms)
+
+### Does Google Gemini sign a HIPAA BAA? Is Google Gemini HIPAA compliant?
+**Does Google Gemini sign a HIPAA BAA?** Yes — Google Gemini (Google) signs a HIPAA Business Associate Agreement. Gemini for Workspace is a HIPAA-covered service under the Google Workspace BAA. A Workspace admin must accept the BAA in the Admin console; the free consumer Gemini app is not covered. PHI is permitted in Gemini for Workspace once a Workspace admin has accepted the Google Workspace BAA — not in the free consumer Gemini app. (Verified 2026-06-01.)
+
+**Is Google Gemini HIPAA compliant?** Yes, conditionally — Google Gemini (Google) can be used in a HIPAA-compliant way once you execute its HIPAA BAA on a covered plan. No AI tool is "certified HIPAA compliant" on its own; compliance is a shared responsibility that only holds with a signed BAA in place. (Verified 2026-06-01.)
+
+→ [Google Gemini on BAA Atlas](https://baa-atlas.vercel.app/ai/google-gemini) · [primary source](https://workspace.google.com/security/ai-privacy/)
+
+### Does Microsoft 365 Copilot sign a HIPAA BAA? Is Microsoft 365 Copilot HIPAA compliant?
+**Does Microsoft 365 Copilot sign a HIPAA BAA?** Partially — Microsoft 365 Copilot (Microsoft) will sign a HIPAA BAA, but only on a qualifying (usually enterprise) tier; its free and consumer plans are excluded. Covered by Microsoft's HIPAA BAA when run inside an eligible Microsoft 365 enterprise tenant (E3/E5, Business Premium). Consumer and unlicensed add-on tiers are excluded. PHI is permitted only when Microsoft 365 Copilot runs inside a BAA-covered M365 enterprise tenant (E3/E5 or Business Premium). (Verified 2026-06-01.)
+
+**Is Microsoft 365 Copilot HIPAA compliant?** Only on a qualifying tier — Microsoft 365 Copilot (Microsoft) can be part of a HIPAA-compliant workflow, but only on its qualifying (usually enterprise) tier after a signed BAA. Its free and consumer plans cannot lawfully process PHI and are not HIPAA-eligible. (Verified 2026-06-01.)
+
+→ [Microsoft 365 Copilot on BAA Atlas](https://baa-atlas.vercel.app/ai/microsoft-365-copilot) · [primary source](https://learn.microsoft.com/en-us/microsoft-365/copilot/enterprise-data-protection)
+
+### Does Perplexity AI sign a HIPAA BAA? Is Perplexity AI HIPAA compliant?
+**Does Perplexity AI sign a HIPAA BAA?** No — Perplexity AI (Perplexity) does not sign a HIPAA BAA on any plan. Perplexity does not sign a BAA — not even on Enterprise Pro. There is no HIPAA-covered Perplexity tier. Do not enter PHI into Perplexity — it does not sign a BAA on any plan, including Enterprise Pro. (Verified 2026-06-01.)
+
+**Is Perplexity AI HIPAA compliant?** No — Perplexity AI (Perplexity) cannot be used in a HIPAA-compliant way, because it will not sign a HIPAA BAA on any plan. Do not enter PHI into it. (Verified 2026-06-01.)
+
+→ [Perplexity AI on BAA Atlas](https://baa-atlas.vercel.app/ai/perplexity) · [primary source](https://www.perplexity.ai/hub/legal/perplexity-enterprise-data-processing-addendum)
+
+### Does GitHub Copilot sign a HIPAA BAA? Is GitHub Copilot HIPAA compliant?
+**Does GitHub Copilot sign a HIPAA BAA?** No — GitHub Copilot (GitHub (Microsoft)) does not sign a HIPAA BAA on any plan. GitHub Copilot is explicitly outside Microsoft's HIPAA BAA scope — it is not a BAA-covered service even on enterprise GitHub plans. Do not enter PHI into GitHub Copilot — it is excluded from Microsoft's HIPAA BAA coverage. (Verified 2026-06-01.)
+
+**Is GitHub Copilot HIPAA compliant?** No — GitHub Copilot (GitHub (Microsoft)) cannot be used in a HIPAA-compliant way, because it will not sign a HIPAA BAA on any plan. Do not enter PHI into it. (Verified 2026-06-01.)
+
+→ [GitHub Copilot on BAA Atlas](https://baa-atlas.vercel.app/ai/github-copilot) · [primary source](https://github.com/customer-terms/github-data-protection-agreement)
 
 <details>
 <summary><strong>Every tracked tool — "Does &lt;tool&gt; sign a HIPAA BAA?" (click to expand all 34)</strong></summary>
@@ -173,6 +200,7 @@ No — GitHub Copilot (GitHub (Microsoft)) does not sign a HIPAA BAA on any plan
 - Each row is **date-stamped** (`Last verified`). A verdict is only as current as that date — vendors change BAA scope, so re-check the source for anything high-stakes.
 - An **unverified** entry never outranks a sourced verdict; we would rather show `❓ Unverified` than guess (a YMYL guardrail for health data).
 - A BAA covering a vendor's core product does **not** automatically cover its AI add-on. Several tools here are ❌ for exactly that reason (the AI feature is carved out of an otherwise HIPAA-ready product).
+- **Scope:** this dataset tracks the HIPAA BAA + PHI question only. We deliberately do **not** assert SOC 2 type, ISO 27001, or other certifications here — we have not verified those to a primary source for every row, and a YMYL health reference should not carry uncited "mentions SOC2"-grade claims. Where a vendor's trust center documents SOC 2, it is linked from that vendor's [BAA Atlas](https://baa-atlas.vercel.app/ai/hipaa) detail page rather than asserted here.
 - This is a documentation reference, **not legal advice**. Confirm coverage in your own executed agreement before processing PHI.
 
 ## Machine-readable files
